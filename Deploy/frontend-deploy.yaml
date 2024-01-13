@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fm-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fm-frontend
+  template:
+    metadata:
+      labels:
+        app: fm-frontend
+    spec:
+      containers:
+      - name: fm-frontend
+        image: farid25/fm-frontend:v1
+        ports:
+        - containerPort: 3000
+        env:
+          - name: API_URL
+            valueFrom:
+              configMapKeyRef:
+                name: frontend-config
+                key: API_URL
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: fm-frontend-service
+spec:
+  selector:
+    app: fm-frontend
+  ports:
+    - protocol: "TCP"
+      port: 3000
+      targetPort: 3000
+  type: NodePort
