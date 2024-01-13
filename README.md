@@ -1,10 +1,4 @@
-<h1 align="center">Fasal-Mitra App</h1>
-
-<div align="center">
-
-<a href="https://github.com/FASAL-MITRA-SIH-22/Fasal-Mitra"><img width=200px src="https://github.com/FASAL-MITRA-SIH-22/Fasal-mitra-frontend/blob/main/frontend/public/android-chrome-512x512.png"  alt="Project logo"/></a>
- 
-</div>
+<h1 align="center">Microservices on minikube</h1>
 
 <br/>
 
@@ -25,7 +19,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-<b>Fasal-Mitra</b> is a Progrssive Web APP (PWA) designed for automated plant disease detection and proposal of method for the prevention and cure of the disease. This app will help farmers to detect the diseases and how can they overcome it. It will also generate a detail report which will contain the disease names in number of species. If required, they can also verify it by the government authorities who will verify the report generated and will help with the input if required. The collected data will help our system to predict the diseases in more accurate way due to self-learning mechanism. The system will be easy to use with some basics functionalities which will make it user friendly for farmers.
+<b>This</b> is a Progrssive Web APP (PWA) designed for automated plant disease detection and proposal of method for the prevention and cure of the disease. This app will help farmers to detect the diseases and how can they overcome it. It will also generate a detail report which will contain the disease names in number of species. If required, they can also verify it by the government authorities who will verify the report generated and will help with the input if required. The collected data will help our system to predict the diseases in more accurate way due to self-learning mechanism. The system will be easy to use with some basics functionalities which will make it user friendly for farmers.
 <br/>
 
 ## 1.1 Problem Definition
@@ -57,13 +51,8 @@ The key features of the project are: 
 
 The system architecture for the application is as followed:
 
-<a href="https://github.com/FASAL-MITRA-SIH-22/Fasal-mitra-frontend"><img width="auto" src="./AboutProject/ArchitectureDiagram.svg"  alt="System Architecture"/></a></a>
 
-## 1.4 Activity Diagram
-
-The activity diagram for the application is as followed:
-
-<a href="https://github.com/FASAL-MITRA-SIH-22/Fasal-mitra-frontend"><img width="auto" src="https://github.com/FASAL-MITRA-SIH-22/Fasal-Mitra/blob/frontend/AboutProject/ActivityDiagram.svg"  alt="Activity Diagram"/></a></a>
+![image](https://github.com/frdayvz85/microservice-minikube/assets/55210294/414c545a-ff8a-4f49-8ff0-5d3cb61c7280)
 
 ## 1.5 Tech-Stack Used
 
@@ -117,24 +106,3 @@ A step by step series of examples that tell you how to get a development env run
 
 - Open [localhost:3000](localhost:3000) in the browser
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-authors-a-name--authorsa)
-
-## :pencil2: Authors <a name="authors"></a>
-
-- [Ishan Kulkarni](https://www.linkedin.com/in/kulkarniishan)
-- [Anurag Ghosh](https://www.linkedin.com/in/anurag-g-a01531198)
-- [Dhruv Solanki](#)
-- [Rajas Bondale](#)
-- [Aditi Pawar](#)
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-built-using-a-name--built_usinga)
-
-## :brain: Contribution over Time <a name="contribution"></a>
-
-<div align="center">
- <a href="https://www.apiseven.com/en/contributor-graph?chart=contributorOverTime&repo=FASAL-MITRA-SIH-22/Fasal-Mitra">
-  <img src="https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=FASAL-MITRA-SIH-22/Fasal-Mitra" alt="Contribution image"/>
- </a>
-</div>
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-authors-a-name--authorsa)
